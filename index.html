@@ -1,65 +1,246 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#102a43">
-<meta name="description" content="Kurd AI Academy — Learn languages, digital skills and AI skills. Build your future through accessible learning.">
-<title>Kurd AI Academy | Learn. Grow. Work.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10243a">
+<meta name="description" content="Kurd AI Academy - Free learning for everyone.">
+<title>Kurd AI Academy</title>
 <style>
-:root{--navy:#102a43;--blue:#176b87;--teal:#2a9d8f;--gold:#f4b942;--ink:#183247;--muted:#607487;--paper:#f5f8fb;--white:#fff;--line:#e2eaf0;--shadow:0 16px 40px rgba(16,42,67,.10)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}a{color:inherit;text-decoration:none}button,select{font:inherit}.wrap{width:min(1120px,92%);margin:auto}.topbar{background:var(--navy);color:#dbe8f1;font-size:.88rem;padding:8px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;color:var(--navy);font-size:1.12rem}.logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--teal),var(--blue));display:grid;place-items:center;color:white;font-weight:900;letter-spacing:-1px;box-shadow:0 7px 18px #176b8733}.links{display:flex;align-items:center;gap:24px;color:#40596d;font-weight:650;font-size:.94rem}.links a:hover{color:var(--teal)}.actions{display:flex;align-items:center;gap:10px}.lang{border:1px solid var(--line);background:#fff;border-radius:10px;padding:9px 10px;color:var(--ink)}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:12px;padding:12px 18px;font-weight:750;cursor:pointer;transition:.2s}.btn-primary{background:var(--teal);color:#fff;box-shadow:0 8px 18px #2a9d8f33}.btn-primary:hover{background:#21877c;transform:translateY(-1px)}.btn-light{background:#e9f4f4;color:#176b68}.hero{padding:74px 0 68px;background:radial-gradient(circle at 80% 15%,#d7f1ed 0,transparent 32%),linear-gradient(135deg,#f5fafb,#edf4f8)}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:45px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#16766f;background:#e1f4f0;padding:7px 12px;border-radius:999px;font-size:.84rem;font-weight:800}.dot{width:8px;height:8px;background:var(--teal);border-radius:50%}h1{font-size:clamp(2.5rem,5vw,4.5rem);line-height:1.06;letter-spacing:-.045em;color:var(--navy);margin:20px 0}h1 span{color:var(--teal)}.lead{font-size:1.12rem;color:var(--muted);max-width:590px}.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.trust{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;color:#61788a;font-size:.9rem}.trust strong{color:var(--navy)}.hero-card{background:#fff;border:1px solid #e4edf1;border-radius:26px;padding:25px;box-shadow:var(--shadow);position:relative;overflow:hidden}.hero-card:before{content:"";position:absolute;width:190px;height:190px;border-radius:50%;background:#e2f4f0;right:-60px;top:-70px}.learning-art{position:relative;min-height:280px;display:grid;place-items:center}.orbit{width:225px;height:225px;border-radius:50%;background:linear-gradient(145deg,#e5f6f2,#dcecf5);display:grid;place-items:center;position:relative}.book{width:130px;height:105px;background:#fff;border-radius:12px 12px 18px 18px;box-shadow:0 15px 25px #102a4320;display:grid;place-items:center;font-size:3.2rem;position:relative}.book:after{content:"";position:absolute;left:50%;height:82%;width:2px;background:#dce8ed}.float{position:absolute;background:white;padding:10px 13px;border-radius:12px;box-shadow:0 8px 22px #102a4318;font-size:.88rem;font-weight:750}.f1{top:22px;left:2px}.f2{right:-4px;top:75px}.f3{bottom:12px;left:12px}.card-note{position:relative;color:var(--muted);font-size:.9rem;text-align:center}.section{padding:72px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 34px}.kicker{color:var(--teal);font-weight:850;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}.section h2{font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.15;color:var(--navy);letter-spacing:-.03em;margin:10px 0}.section-head p{color:var(--muted);margin:0}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.course{background:#fff;border:1px solid var(--line);border-radius:18px;padding:23px;box-shadow:0 8px 24px #102a4308;transition:.2s}.course:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.course-icon{width:48px;height:48px;border-radius:14px;background:#e7f5f2;display:grid;place-items:center;font-size:1.45rem}.course:nth-child(2) .course-icon{background:#edf1fb}.course:nth-child(3) .course-icon{background:#fff4df}.course h3{margin:16px 0 7px;color:var(--navy)}.course p{margin:0;color:var(--muted);font-size:.94rem}.tag{display:inline-block;margin-top:17px;padding:5px 10px;border-radius:999px;background:#f0f5f7;color:#587083;font-size:.78rem;font-weight:750}.mission{background:var(--navy);color:white}.mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}.mission h2{color:#fff}.mission p{color:#c4d5e1}.pillars{display:grid;grid-template-columns:1fr 1fr;gap:12px}.pillar{padding:17px;border:1px solid #ffffff25;border-radius:15px;background:#ffffff0b}.pillar b{display:block;margin-bottom:5px}.pillar span{font-size:.88rem;color:#c4d5e1}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{background:white;border:1px solid var(--line);padding:22px;border-radius:17px}.num{font-weight:900;color:var(--teal);font-size:1.5rem}.step h3{margin:5px 0;color:var(--navy)}.step p{margin:0;color:var(--muted);font-size:.93rem}.cta{padding:55px 0;background:linear-gradient(120deg,#dff3ee,#e8f0f8)}.cta-box{display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{color:var(--navy);font-size:2rem;margin:0}.cta p{color:var(--muted);margin:7px 0 0}.footer{background:#0b2033;color:#c5d4df;padding:38px 0 22px}.footgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:28px}.footer .brand{color:white}.footer p,.footer a{color:#aebfcb;font-size:.9rem}.footer h4{color:white;margin:0 0 10px}.footlinks{display:grid;gap:7px}.copyright{border-top:1px solid #ffffff20;margin-top:28px;padding-top:18px;font-size:.82rem;color:#8fa4b4}.notice{font-size:.82rem;color:#7b8d9b;margin-top:14px}.mobile-menu{display:none}
-[dir=rtl] body{text-align:right}[dir=rtl] .hero-grid,[dir=rtl] .mission-grid{direction:rtl}[dir=rtl] .topbar .wrap{direction:rtl}
-@media(max-width:800px){.links{display:none}.hero{padding:50px 0}.hero-grid,.mission-grid{grid-template-columns:1fr}.hero-card{max-width:520px;margin:auto}.grid3{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.footgrid{grid-template-columns:1fr 1fr}.cta-box{align-items:flex-start;flex-direction:column}}
-@media(max-width:520px){.navin{height:66px}.actions .btn{display:none}.grid3,.pillars,.footgrid{grid-template-columns:1fr}.hero-card{padding:15px}.learning-art{min-height:245px}.orbit{width:190px;height:190px}.float{font-size:.78rem}.section{padding:55px 0}h1{font-size:2.7rem}}
+:root {
+  --navy:#10243a; --blue:#1769aa; --gold:#f0b94b;
+  --bg:#f3f6fa; --white:#fff; --muted:#64748b;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#17283b;
+  font-family:Arial,"Noto Sans Arabic",sans-serif}
+header{background:var(--navy);color:white;padding:18px 5%;
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:12px}
+.logo{font-size:21px;font-weight:bold}
+.logo span{color:var(--gold)}
+select,button{font:inherit;border-radius:9px;padding:10px 13px}
+select{border:1px solid #d7dfeb;background:white}
+.hero{background:linear-gradient(120deg,#10243a,#1769aa);
+  color:white;padding:55px 7%;text-align:center}
+.hero h1{font-size:clamp(27px,5vw,44px);margin:0 0 15px}
+.hero p{font-size:17px;line-height:1.9;max-width:700px;margin:auto}
+main{max-width:1100px;margin:30px auto;padding:0 16px}
+.section-title{font-size:24px;margin:30px 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:17px}
+.card{background:white;padding:20px;border-radius:15px;
+  box-shadow:0 5px 20px #17283b0b}
+.card h3{margin-top:8px}
+.card p{color:var(--muted);line-height:1.7}
+.icon{font-size:35px}
+button{border:0;background:var(--blue);color:white;cursor:pointer}
+button:hover{opacity:.9}
+.secondary{background:#e8eff7;color:var(--navy)}
+.progress{height:9px;background:#e5eaf0;border-radius:9px;overflow:hidden}
+.progress div{height:100%;background:#20a477;width:0}
+.lesson{display:none;margin-top:20px}
+.lesson.active{display:block}
+.question{padding:15px;background:#f3f6fa;border-radius:10px;margin:15px 0}
+.option{display:block;margin:9px 0;color:#26384c}
+#message{font-weight:bold;margin-top:12px}
+footer{text-align:center;background:var(--navy);color:white;
+  padding:25px;margin-top:50px;line-height:1.8}
+.small{font-size:13px;color:var(--muted)}
 </style>
 </head>
 <body>
-<div class="topbar"><div class="wrap"><span data-i18n="topline">Accessible learning. Practical skills. More opportunities.</span><span data-i18n="topright">A learning initiative for everyone</span></div></div>
-<header class="nav"><div class="wrap navin">
-<a class="brand" href="#home"><span class="logo">KAI</span><span>Kurd AI Academy</span></a>
-<nav class="links"><a href="#courses" data-i18n="navcourses">Courses</a><a href="#mission" data-i18n="navmission">Our mission</a><a href="#path" data-i18n="navpath">Learning path</a></nav>
-<div class="actions"><select class="lang" id="language" aria-label="Choose language"><option value="en">English</option><option value="ku">کوردی</option><option value="ar">العربية</option><option value="tr">Türkçe</option></select><a class="btn btn-primary" href="#courses" data-i18n="navstart">Explore courses</a></div>
-</div></header>
+<header>
+  <div class="logo">Kurd <span>AI</span> Academy</div>
+  <select id="language" aria-label="Language">
+    <option value="ku">کوردی</option>
+    <option value="en">English</option>
+    <option value="ar">العربية</option>
+    <option value="tr">Türkçe</option>
+  </select>
+</header>
+
+<section class="hero">
+  <h1 id="heroTitle">فێربە، گەشە بکە، داهاتووت دروست بکە</h1>
+  <p id="heroText">خوێندنەوە و فێربوون مافی هەمووانە. لێرەوە بەخۆڕایی دەست پێبکە و تواناکانی خۆت پەرە پێبدە.</p>
+</section>
+
 <main>
-<section class="hero" id="home"><div class="wrap hero-grid">
-<div><div class="eyebrow"><span class="dot"></span><span data-i18n="eyebrow">LEARN TODAY. OPEN TOMORROW.</span></div>
-<h1 data-i18n="heroTitle">Your next opportunity starts with <span>learning.</span></h1>
-<p class="lead" data-i18n="heroLead">Build language, digital and AI skills through clear, practical lessons designed to help you take your next step.</p>
-<div class="hero-cta"><a class="btn btn-primary" href="#courses" data-i18n="heroButton">Explore learning paths</a><a class="btn btn-light" href="#mission" data-i18n="heroMore">Discover our mission</a></div>
-<div class="trust"><span>✓ <strong data-i18n="trust1">Beginner-friendly</strong></span><span>✓ <strong data-i18n="trust2">Mobile-first</strong></span><span>✓ <strong data-i18n="trust3">Learn at your pace</strong></span></div></div>
-<div class="hero-card"><div class="learning-art"><div class="orbit"><div class="book">📖</div></div><div class="float f1">🌍 <span data-i18n="float1">Languages</span></div><div class="float f2">🤖 <span data-i18n="float2">AI skills</span></div><div class="float f3">💡 <span data-i18n="float3">New ideas</span></div></div><div class="card-note" data-i18n="artNote">Small steps can lead to meaningful change.</div></div>
-</div></section>
-<section class="section" id="courses"><div class="wrap"><div class="section-head"><div class="kicker" data-i18n="courseKicker">LEARNING PATHS</div><h2 data-i18n="courseTitle">Skills that help you move forward</h2><p data-i18n="courseLead">Start with the basics, practice with real examples, and build confidence one lesson at a time.</p></div>
-<div class="grid3">
-<article class="course"><div class="course-icon">🗣️</div><h3 data-i18n="c1title">Languages</h3><p data-i18n="c1desc">Build practical English, Arabic and Kurdish communication skills for everyday life and work.</p><span class="tag" data-i18n="beginner">Beginner friendly</span></article>
-<article class="course"><div class="course-icon">🌐</div><h3 data-i18n="c2title">Translation & writing</h3><p data-i18n="c2desc">Practice translation, proofreading, clear writing and responsible use of AI tools.</p><span class="tag" data-i18n="practical">Practical projects</span></article>
-<article class="course"><div class="course-icon">🤖</div><h3 data-i18n="c3title">Digital & AI skills</h3><p data-i18n="c3desc">Learn digital basics, online safety, productivity tools and useful AI workflows.</p><span class="tag" data-i18n="selfpaced">Learn at your pace</span></article>
-</div></div></section>
-<section class="section mission" id="mission"><div class="wrap mission-grid"><div><div class="kicker" style="color:#70d5c5" data-i18n="missionKicker">WHY WE EXIST</div><h2 data-i18n="missionTitle">Knowledge should open doors for everyone.</h2><p data-i18n="missionText">Kurd AI Academy aims to make learning more accessible, especially for people who face barriers to education and work. We believe useful skills, patient guidance and shared opportunity can strengthen communities.</p></div><div class="pillars">
-<div class="pillar"><b>🎓 <span data-i18n="p1title">Accessible learning</span></b><span data-i18n="p1desc">Clear lessons designed for beginners.</span></div>
-<div class="pillar"><b>🏡 <span data-i18n="p2title">Flexible study</span></b><span data-i18n="p2desc">Learn from home and at your own pace.</span></div>
-<div class="pillar"><b>🤝 <span data-i18n="p3title">Shared opportunity</span></b><span data-i18n="p3desc">Build skills that can support future work.</span></div>
-<div class="pillar"><b>🛡️ <span data-i18n="p4title">Responsible technology</span></b><span data-i18n="p4desc">Use AI thoughtfully and protect your privacy.</span></div>
-</div></div></section>
-<section class="section" id="path"><div class="wrap"><div class="section-head"><div class="kicker" data-i18n="pathKicker">YOUR JOURNEY</div><h2 data-i18n="pathTitle">A simple path from learning to doing</h2><p data-i18n="pathLead">Our planned learning experience is built around practice, progress and honest guidance.</p></div>
-<div class="steps"><article class="step"><div class="num">01</div><h3 data-i18n="s1title">Choose a skill</h3><p data-i18n="s1desc">Pick a learning path that matches your interests and goals.</p></article><article class="step"><div class="num">02</div><h3 data-i18n="s2title">Learn and practice</h3><p data-i18n="s2desc">Follow short lessons and complete practical exercises.</p></article><article class="step"><div class="num">03</div><h3 data-i18n="s3title">Build your portfolio</h3><p data-i18n="s3desc">Collect examples of your work and prepare for real opportunities.</p></article></div>
-<p class="notice" data-i18n="notice">This is an early website prototype. Courses, accounts, certificates, job matching and payments are not active yet. No accredited qualification or job placement is promised.</p>
-</div></section>
-<section class="cta"><div class="wrap cta-box"><div><h2 data-i18n="ctaTitle">Your journey can start with one lesson.</h2><p data-i18n="ctaText">Explore the learning paths and help us shape an academy built around people.</p></div><a class="btn btn-primary" href="#courses" data-i18n="ctaButton">See learning paths</a></div></section>
+  <h2 class="section-title" id="coursesTitle">کۆرسەکان</h2>
+  <div class="grid" id="courses"></div>
+
+  <h2 class="section-title" id="progressTitle">پێشکەوتنی من</h2>
+  <div class="card">
+    <p id="progressText">وانە تەواوکراوەکان</p>
+    <div class="progress"><div id="progressBar"></div></div>
+    <p id="progressCount">0</p>
+  </div>
+
+  <section class="card lesson" id="lesson">
+    <h2 id="lessonTitle"></h2>
+    <p id="lessonBody"></p>
+    <div class="question">
+      <strong id="questionText"></strong>
+      <div id="options"></div>
+      <button id="checkAnswer"></button>
+      <p id="message"></p>
+    </div>
+    <button class="secondary" id="completeLesson"></button>
+    <button class="secondary" id="closeLesson"></button>
+  </section>
+
+  <h2 class="section-title" id="aboutTitle">ئامانجی ئەکادیمی</h2>
+  <div class="card">
+    <p id="aboutText">ئامانجمان ئەوەیە هەموو کەسێک، بەبێ جیاوازی، دەرفەتی فێربوون و پەرەپێدانی تواناکانی هەبێت. دواتر بەشەکانی پۆرتفۆلیۆ و ئامادەکاری بۆ کاری دوورەوە زیاد دەکەین.</p>
+  </div>
 </main>
-<footer class="footer"><div class="wrap"><div class="footgrid"><div><a class="brand" href="#home"><span class="logo">KAI</span><span>Kurd AI Academy</span></a><p data-i18n="footText">Learning, skills and opportunity — for everyone.</p></div><div><h4 data-i18n="footExplore">Explore</h4><div class="footlinks"><a href="#courses" data-i18n="navcourses">Courses</a><a href="#mission" data-i18n="navmission">Our mission</a><a href="#path" data-i18n="navpath">Learning path</a></div></div><div><h4 data-i18n="footContact">Contact</h4><p data-i18n="contactSoon">Contact details will be added before public launch.</p></div></div><div class="copyright">© <span id="year"></span> Kurd AI Academy. <span data-i18n="rights">Built with a commitment to accessible learning.</span></div></div></footer>
+
+<footer>
+  <strong>Kurd AI Academy</strong><br>
+  Learning should be open to everyone.<br>
+  <span class="small" style="color:#cbd5e1">A humanitarian learning initiative</span>
+</footer>
+
 <script>
-const copy={
-en:{topline:"Accessible learning. Practical skills. More opportunities.",topright:"A learning initiative for everyone",navcourses:"Courses",navmission:"Our mission",navpath:"Learning path",navstart:"Explore courses",eyebrow:"LEARN TODAY. OPEN TOMORROW.",heroTitle:'Your next opportunity starts with <span>learning.</span>',heroLead:"Build language, digital and AI skills through clear, practical lessons designed to help you take your next step.",heroButton:"Explore learning paths",heroMore:"Discover our mission",trust1:"Beginner-friendly",trust2:"Mobile-first",trust3:"Learn at your pace",float1:"Languages",float2:"AI skills",float3:"New ideas",artNote:"Small steps can lead to meaningful change.",courseKicker:"LEARNING PATHS",courseTitle:"Skills that help you move forward",courseLead:"Start with the basics, practice with real examples, and build confidence one lesson at a time.",c1title:"Languages",c1desc:"Build practical English, Arabic and Kurdish communication skills for everyday life and work.",c2title:"Translation & writing",c2desc:"Practice translation, proofreading, clear writing and responsible use of AI tools.",c3title:"Digital & AI skills",c3desc:"Learn digital basics, online safety, productivity tools and useful AI workflows.",beginner:"Beginner friendly",practical:"Practical projects",selfpaced:"Learn at your pace",missionKicker:"WHY WE EXIST",missionTitle:"Knowledge should open doors for everyone.",missionText:"Kurd AI Academy aims to make learning more accessible, especially for people who face barriers to education and work. We believe useful skills, patient guidance and shared opportunity can strengthen communities.",p1title:"Accessible learning",p1desc:"Clear lessons designed for beginners.",p2title:"Flexible study",p2desc:"Learn from home and at your own pace.",p3title:"Shared opportunity",p3desc:"Build skills that can support future work.",p4title:"Responsible technology",p4desc:"Use AI thoughtfully and protect your privacy.",pathKicker:"YOUR JOURNEY",pathTitle:"A simple path from learning to doing",pathLead:"Our planned learning experience is built around practice, progress and honest guidance.",s1title:"Choose a skill",s1desc:"Pick a learning path that matches your interests and goals.",s2title:"Learn and practice",s2desc:"Follow short lessons and complete practical exercises.",s3title:"Build your portfolio",s3desc:"Collect examples of your work and prepare for real opportunities.",notice:"This is an early website prototype. Courses, accounts, certificates, job matching and payments are not active yet. No accredited qualification or job placement is promised.",ctaTitle:"Your journey can start with one lesson.",ctaText:"Explore the learning paths and help us shape an academy built around people.",ctaButton:"See learning paths",footText:"Learning, skills and opportunity — for everyone.",footExplore:"Explore",footContact:"Contact",contactSoon:"Contact details will be added before public launch.",rights:"Built with a commitment to accessible learning."},
-ku:{topline:"فێربوونی بەردەست. شارەزایی کرداری. دەرفەتی زیاتر.",topright:"هەوڵێکی فێرکاری بۆ هەمووان",navcourses:"کۆرسەکان",navmission:"ئامانجمان",navpath:"ڕێگای فێربوون",navstart:"بینینی کۆرسەکان",eyebrow:"ئەمڕۆ فێربە، سبەی دەرفەت بکەرەوە.",heroTitle:'دەرفەتی داهاتووت بە <span>فێربوون</span> دەست پێدەکات.',heroLead:"زمان، شارەزایی دیجیتاڵی و زیرەکیی دەستکرد فێربە؛ بە وانەی ڕوون و کرداری کە یارمەتیت دەدەن هەنگاوی داهاتوو بنێیت.",heroButton:"ڕێگاکانی فێربوون ببینە",heroMore:"ئامانجمان بناسە",trust1:"گونجاو بۆ دەستپێکەران",trust2:"گونجاو بۆ مۆبایل",trust3:"بە خێرایی خۆت فێربە",float1:"زمانەکان",float2:"شارەزایی AI",float3:"بیرۆکەی نوێ",artNote:"هەنگاوی بچووک دەتوانێت گۆڕانکاریی گەورە دروست بکات.",courseKicker:"ڕێگاکانی فێربوون",courseTitle:"شارەزایی کە یارمەتیت دەدات پێش بکەویت",courseLead:"لە بنەڕەتەوە دەست پێبکە، بە نموونەی ڕاستەقینە ڕاهێنان بکە و هەنگاو بە هەنگاو متمانە بەخۆت زیاد بکە.",c1title:"زمانەکان",c1desc:"توانای پەیوەندیکردن بە ئینگلیزی، عەرەبی و کوردی بۆ ژیانی ڕۆژانە و کار پەرە پێبدە.",c2title:"وەرگێڕان و نووسین",c2desc:"وەرگێڕان، ڕاستکردنەوەی دەق، نووسینی ڕوون و بەکارهێنانی بەرپرسیارانەی ئامرازەکانی AI ڕاهێنان بکە.",c3title:"شارەزایی دیجیتاڵی و AI",c3desc:"بنەمای دیجیتاڵ، سەلامەتیی ئۆنلاین، ئامرازەکانی بەرهەمهێنان و شێوازی بەکارهێنانی AI فێربە.",beginner:"گونجاو بۆ دەستپێکەران",practical:"پڕۆژەی کرداری",selfpaced:"بە خێرایی خۆت",missionKicker:"بۆچی هەین؟",missionTitle:"زانیاری دەبێت دەرگا بۆ هەمووان بکاتەوە.",missionText:"Kurd AI Academy ئامانجی ئەوەیە فێربوون بۆ هەمووان ئاسانتر بکات، بە تایبەتی ئەوانەی بەربەستیان لە بەردەم خوێندن و کاردایە. باوەڕمان وایە شارەزایی بەسوود، ڕێنمایی بە ئارامی و دەرفەتی هاوبەش کۆمەڵگا بەهێز دەکەن.",p1title:"فێربوونی بەردەست",p1desc:"وانەی ڕوون بۆ دەستپێکەران.",p2title:"فێربوونی گونجاو",p2desc:"لە ماڵەوە و بە خێرایی خۆت فێربە.",p3title:"دەرفەتی هاوبەش",p3desc:"شارەزایی پەرە پێبدە کە لە کاری داهاتوودا سوودت پێدەگەیەنێت.",p4title:"تەکنەلۆژیای بەرپرسیارانە",p4desc:"AI بە ئاگایی بەکاربهێنە و نهێنییەکانت بپارێزە.",pathKicker:"گەشتەکەت",pathTitle:"ڕێگایەکی سادە لە فێربوونەوە بۆ جێبەجێکردن",pathLead:"ئەزموونی فێربوونی پلاندانراومان لەسەر ڕاهێنان، پێشکەوتن و ڕێنماییی ڕاستگۆیانە بنیات دەنرێت.",s1title:"شارەزاییەک هەڵبژێرە",s1desc:"ئەو ڕێگایە هەڵبژێرە کە لەگەڵ حەز و ئامانجەکانت دەگونجێت.",s2title:"فێربە و ڕاهێنان بکە",s2desc:"شوێنی وانە کورتەکان بکەوە و ڕاهێنانی کرداری تەواو بکە.",s3title:"پۆرتفۆلیۆ دروست بکە",s3desc:"نموونەی کارەکانت کۆبکەرەوە و خۆت بۆ دەرفەتی ڕاستەقینە ئامادە بکە.",notice:"ئەمە وەشانی سەرەتایی ماڵپەڕە. کۆرس، هەژمار، بڕوانامە، دۆزینەوەی کار و پارەدان هێشتا چالاک نین. هیچ بڕوانامەی فەرمی یان دامەزراندنێک بەڵێن نادرێت.",ctaTitle:"گەشتەکەت دەتوانێت بە یەک وانە دەست پێبکات.",ctaText:"ڕێگاکانی فێربوون ببینە و یارمەتیمان بدە ئەکادیمییەک دروست بکەین کە مرۆڤ لە ناوەندییەتی.",ctaButton:"ڕێگاکانی فێربوون ببینە",footText:"فێربوون، شارەزایی و دەرفەت — بۆ هەمووان.",footExplore:"بگەڕێ",footContact:"پەیوەندی",contactSoon:"زانیاریی پەیوەندی پێش بڵاوکردنەوە زیاد دەکرێت.",rights:"بنیاتنراوە لەسەر پابەندبوون بە فێربوونی بەردەست."},
-ar:{topline:"تعلم متاح. مهارات عملية. فرص أكثر.",topright:"مبادرة تعليمية للجميع",navcourses:"الدورات",navmission:"رسالتنا",navpath:"مسار التعلم",navstart:"استكشف الدورات",eyebrow:"تعلّم اليوم. افتح أبواب الغد.",heroTitle:'فرصتك القادمة تبدأ بـ <span>التعلّم.</span>',heroLead:"طوّر مهارات اللغة والمهارات الرقمية والذكاء الاصطناعي من خلال دروس واضحة وعملية تساعدك على اتخاذ خطوتك التالية.",heroButton:"استكشف مسارات التعلم",heroMore:"اكتشف رسالتنا",trust1:"مناسب للمبتدئين",trust2:"مصمم للهاتف",trust3:"تعلّم وفق وتيرتك",float1:"اللغات",float2:"مهارات الذكاء الاصطناعي",float3:"أفكار جديدة",artNote:"الخطوات الصغيرة قد تصنع تغييراً مهماً.",courseKicker:"مسارات التعلم",courseTitle:"مهارات تساعدك على التقدم",courseLead:"ابدأ بالأساسيات، وتدرّب بأمثلة واقعية، وابنِ ثقتك خطوة بعد خطوة.",c1title:"اللغات",c1desc:"طوّر مهارات التواصل العملية بالإنجليزية والعربية والكردية للحياة والعمل.",c2title:"الترجمة والكتابة",c2desc:"تدرّب على الترجمة والتدقيق والكتابة الواضحة والاستخدام المسؤول لأدوات الذكاء الاصطناعي.",c3title:"المهارات الرقمية والذكاء الاصطناعي",c3desc:"تعلّم الأساسيات الرقمية والسلامة على الإنترنت وأدوات الإنتاجية وسير العمل المفيد بالذكاء الاصطناعي.",beginner:"مناسب للمبتدئين",practical:"مشاريع عملية",selfpaced:"تعلّم وفق وتيرتك",missionKicker:"لماذا نحن هنا؟",missionTitle:"يجب أن تفتح المعرفة الأبواب أمام الجميع.",missionText:"تهدف Kurd AI Academy إلى جعل التعلم أكثر سهولة، خصوصاً لمن يواجهون عوائق أمام التعليم والعمل. نؤمن بأن المهارات المفيدة والإرشاد الهادئ والفرص المشتركة يمكن أن تقوّي المجتمعات.",p1title:"تعلم متاح",p1desc:"دروس واضحة مصممة للمبتدئين.",p2title:"تعلم مرن",p2desc:"تعلّم من المنزل وبالسرعة التي تناسبك.",p3title:"فرص مشتركة",p3desc:"ابنِ مهارات قد تدعم عملك مستقبلاً.",p4title:"تقنية مسؤولة",p4desc:"استخدم الذكاء الاصطناعي بوعي واحمِ خصوصيتك.",pathKicker:"رحلتك",pathTitle:"مسار بسيط من التعلم إلى التطبيق",pathLead:"تجربة التعلم المخطط لها تقوم على الممارسة والتقدم والإرشاد الصادق.",s1title:"اختر مهارة",s1desc:"اختر مساراً تعليمياً يناسب اهتماماتك وأهدافك.",s2title:"تعلّم وتدرّب",s2desc:"تابع دروساً قصيرة وأكمل تمارين عملية.",s3title:"أنشئ ملف أعمالك",s3desc:"اجمع نماذج من عملك واستعد لفرص حقيقية.",notice:"هذا نموذج أولي للموقع. الدورات والحسابات والشهادات ومطابقة الوظائف والمدفوعات غير مفعّلة بعد. لا نعد بمؤهل معتمد أو توظيف.",ctaTitle:"يمكن أن تبدأ رحلتك بدرس واحد.",ctaText:"استكشف مسارات التعلم وساعدنا في بناء أكاديمية تتمحور حول الناس.",ctaButton:"شاهد مسارات التعلم",footText:"التعلم والمهارات والفرص — للجميع.",footExplore:"استكشف",footContact:"اتصل بنا",contactSoon:"ستضاف معلومات الاتصال قبل الإطلاق العام.",rights:"بُنيت مع الالتزام بإتاحة التعلم للجميع."},
-tr:{topline:"Erişilebilir eğitim. Uygulamalı beceriler. Daha fazla fırsat.",topright:"Herkes için bir öğrenme girişimi",navcourses:"Kurslar",navmission:"Misyonumuz",navpath:"Öğrenme yolu",navstart:"Kursları keşfet",eyebrow:"BUGÜN ÖĞREN. YARINA HAZIRLAN.",heroTitle:'Bir sonraki fırsatın <span>öğrenmekle</span> başlar.',heroLead:"Bir sonraki adımını atmana yardımcı olacak açık ve uygulamalı derslerle dil, dijital ve yapay zekâ becerileri geliştir.",heroButton:"Öğrenme yollarını keşfet",heroMore:"Misyonumuzu keşfet",trust1:"Yeni başlayanlara uygun",trust2:"Mobil öncelikli",trust3:"Kendi hızında öğren",float1:"Diller",float2:"Yapay zekâ becerileri",float3:"Yeni fikirler",artNote:"Küçük adımlar anlamlı değişimler yaratabilir.",courseKicker:"ÖĞRENME YOLLARI",courseTitle:"İlerlemeni sağlayacak beceriler",courseLead:"Temellerle başla, gerçek örneklerle pratik yap ve adım adım özgüven kazan.",c1title:"Diller",c1desc:"Günlük yaşam ve iş için İngilizce, Arapça ve Kürtçe iletişim becerilerini geliştir.",c2title:"Çeviri ve yazma",c2desc:"Çeviri, redaksiyon, açık yazım ve yapay zekâ araçlarının sorumlu kullanımı üzerine pratik yap.",c3title:"Dijital ve yapay zekâ becerileri",c3desc:"Dijital temelleri, çevrimiçi güvenliği, verimlilik araçlarını ve yararlı yapay zekâ iş akışlarını öğren.",beginner:"Yeni başlayanlara uygun",practical:"Uygulamalı projeler",selfpaced:"Kendi hızında öğren",missionKicker:"NEDEN VARIZ?",missionTitle:"Bilgi herkes için kapılar açmalı.",missionText:"Kurd AI Academy, özellikle eğitim ve işe erişimde engeller yaşayan kişiler için öğrenmeyi daha erişilebilir kılmayı amaçlar. Yararlı becerilerin, sabırlı rehberliğin ve paylaşılan fırsatların toplulukları güçlendirebileceğine inanıyoruz.",p1title:"Erişilebilir öğrenme",p1desc:"Yeni başlayanlar için açık dersler.",p2title:"Esnek çalışma",p2desc:"Evden ve kendi hızında öğren.",p3title:"Paylaşılan fırsatlar",p3desc:"Gelecekteki işi destekleyebilecek beceriler edin.",p4title:"Sorumlu teknoloji",p4desc:"Yapay zekâyı bilinçli kullan ve gizliliğini koru.",pathKicker:"YOLCULUĞUN",pathTitle:"Öğrenmeden uygulamaya basit bir yol",pathLead:"Planlanan öğrenme deneyimimiz pratik, ilerleme ve dürüst rehberlik üzerine kuruludur.",s1title:"Bir beceri seç",s1desc:"İlgi alanlarına ve hedeflerine uygun bir öğrenme yolu seç.",s2title:"Öğren ve pratik yap",s2desc:"Kısa dersleri takip et ve uygulamalı alıştırmaları tamamla.",s3title:"Portföyünü oluştur",s3desc:"Çalışmalarından örnekler topla ve gerçek fırsatlara hazırlan.",notice:"Bu, web sitesinin erken prototipidir. Kurslar, hesaplar, sertifikalar, iş eşleştirme ve ödemeler henüz etkin değildir. Akredite yeterlilik veya işe yerleştirme garantisi verilmez.",ctaTitle:"Yolculuğun tek bir dersle başlayabilir.",ctaText:"Öğrenme yollarını keşfet ve insan odaklı bir akademi oluşturmamıza katkı sağla.",ctaButton:"Öğrenme yollarını gör",footText:"Öğrenme, beceriler ve fırsatlar — herkes için.",footExplore:"Keşfet",footContact:"İletişim",contactSoon:"İletişim bilgileri halka açılmadan önce eklenecektir.",rights:"Erişilebilir öğrenme taahhüdüyle oluşturulmuştur."}
+const translations = {
+ ku:{
+  heroTitle:"فێربە، گەشە بکە، داهاتووت دروست بکە",
+  heroText:"خوێندنەوە و فێربوون مافی هەمووانە. لێرەوە بەخۆڕایی دەست پێبکە و تواناکانی خۆت پەرە پێبدە.",
+  coursesTitle:"کۆرسەکان",progressTitle:"پێشکەوتنی من",
+  progressText:"وانە تەواوکراوەکان",aboutTitle:"ئامانجی ئەکادیمی",
+  aboutText:"ئامانجمان ئەوەیە هەموو کەسێک، بەبێ جیاوازی، دەرفەتی فێربوون و پەرەپێدانی تواناکانی هەبێت. دواتر بەشەکانی پۆرتفۆلیۆ و ئامادەکاری بۆ کاری دوورەوە زیاد دەکەین.",
+  start:"دەست پێبکە",check:"پشکنین",complete:"تەواوکردنی وانە",
+  close:"داخستن",correct:"ئافەرین! وەڵامەکەت ڕاستە.",
+  wrong:"هەوڵێکی تر بدە.",done:"وانەکە تەواو کرا.",
+  courses:[
+   ["📘","ئینگلیزی بۆ دەستپێکەران","وشە و ڕستەی سادەی ئینگلیزی فێربە.","Hello واتای چییە؟",["سڵاو","خواحافیز","سوپاس"],0,"Hello = سڵاو. ئەم وشەیە بۆ سڵاوکردن بەکاردێت."],
+   ["🌐","بنەماکانی وەرگێڕان","چۆنیەتی گواستنەوەی واتا لە زمانێکەوە بۆ زمانێکی تر.","Translation واتای چییە؟",["خوێندنەوە","وەرگێڕان","نووسین"],1,"Translation واتە وەرگێڕان؛ گواستنەوەی واتای دەق لە زمانێکەوە بۆ زمانێکی تر."],
+   ["🤖","AI و تواناکانی دیجیتاڵ","بە بنەماکانی زیرەکی دەستکرد و ئامرازە دیجیتاڵەکان ئاشنا ببە.","AI کورتکراوەی چییە؟",["Artificial Intelligence","Automatic Internet","Applied Information"],0,"AI کورتکراوەی Artificial Intelligence ـە؛ بە کوردی: زیرەکی دەستکرد."]
+  ]
+ },
+ en:{
+  heroTitle:"Learn, grow, build your future",
+  heroText:"Education is for everyone. Start learning for free and develop your skills.",
+  coursesTitle:"Courses",progressTitle:"My Progress",
+  progressText:"Completed lessons",aboutTitle:"Our Mission",
+  aboutText:"We aim to make learning opportunities accessible to everyone. Portfolio building and remote-work preparation will be added later.",
+  start:"Start learning",check:"Check answer",complete:"Complete lesson",
+  close:"Close",correct:"Excellent! Your answer is correct.",
+  wrong:"Try again.",done:"Lesson completed.",
+  courses:[
+   ["📘","English for Beginners","Learn simple English words and sentences.","What does Hello mean?",["Goodbye","Hello","Thanks"],1,"Hello is a greeting used when meeting someone."],
+   ["🌐","Translation Basics","Learn how to transfer meaning between languages.","What does Translation mean?",["Reading","Translation","Writing"],1,"Translation means expressing meaning in another language."],
+   ["🤖","AI & Digital Skills","Discover the basics of artificial intelligence.","What does AI stand for?",["Artificial Intelligence","Automatic Internet","Applied Information"],0,"AI stands for Artificial Intelligence."]
+  ]
+ },
+ ar:{
+  heroTitle:"تعلّم، تطوّر، وابنِ مستقبلك",
+  heroText:"التعليم حق للجميع. ابدأ التعلّم مجاناً وطوّر مهاراتك.",
+  coursesTitle:"الدورات",progressTitle:"تقدّمي",
+  progressText:"الدروس المكتملة",aboutTitle:"رسالتنا",
+  aboutText:"هدفنا توفير فرص التعلّم للجميع. سنضيف لاحقاً بناء ملف الأعمال والاستعداد للعمل عن بُعد.",
+  start:"ابدأ التعلّم",check:"تحقّق من الإجابة",complete:"إكمال الدرس",
+  close:"إغلاق",correct:"أحسنت! إجابتك صحيحة.",
+  wrong:"حاول مرة أخرى.",done:"تم إكمال الدرس.",
+  courses:[
+   ["📘","الإنجليزية للمبتدئين","تعلّم الكلمات والجمل الإنجليزية البسيطة.","ما معنى Hello؟",["وداعاً","مرحباً","شكراً"],1,"Hello تعني مرحباً وتستخدم للتحية."],
+   ["🌐","أساسيات الترجمة","تعلّم نقل المعنى بين اللغات.","ما معنى Translation؟",["قراءة","ترجمة","كتابة"],1,"Translation تعني الترجمة."],
+   ["🤖","الذكاء الاصطناعي والمهارات الرقمية","تعرّف على أساسيات الذكاء الاصطناعي.","ما معنى AI؟",["الذكاء الاصطناعي","الإنترنت التلقائي","المعلومات التطبيقية"],0,"AI اختصار Artificial Intelligence."]
+  ]
+ },
+ tr:{
+  heroTitle:"Öğren, geliş, geleceğini kur",
+  heroText:"Eğitim herkesin hakkıdır. Ücretsiz öğrenmeye başla ve becerilerini geliştir.",
+  coursesTitle:"Kurslar",progressTitle:"İlerlemem",
+  progressText:"Tamamlanan dersler",aboutTitle:"Misyonumuz",
+  aboutText:"Amacımız herkes için öğrenme fırsatları sunmaktır. Portföy oluşturma ve uzaktan çalışmaya hazırlık daha sonra eklenecektir.",
+  start:"Öğrenmeye başla",check:"Cevabı kontrol et",complete:"Dersi tamamla",
+  close:"Kapat",correct:"Harika! Cevabın doğru.",
+  wrong:"Tekrar dene.",done:"Ders tamamlandı.",
+  courses:[
+   ["📘","Başlangıç İngilizcesi","Basit İngilizce kelime ve cümleleri öğren.","Hello ne demektir?",["Hoşça kal","Merhaba","Teşekkürler"],1,"Hello, selamlaşırken kullanılan bir kelimedir."],
+   ["🌐","Çeviri Temelleri","Diller arasında anlam aktarmayı öğren.","Translation ne demektir?",["Okuma","Çeviri","Yazma"],1,"Translation, çeviri anlamına gelir."],
+   ["🤖","Yapay Zekâ ve Dijital Beceriler","Yapay zekânın temellerini keşfet.","AI neyin kısaltmasıdır?",["Artificial Intelligence","Automatic Internet","Applied Information"],0,"AI, Artificial Intelligence ifadesinin kısaltmasıdır."]
+  ]
+ }
 };
-function setLanguage(lang){const d=copy[lang]||copy.en;document.documentElement.lang=lang;document.documentElement.dir=lang==="ku"||lang==="ar"?"rtl":"ltr";document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.dataset.i18n;if(d[k]!==undefined)el.innerHTML=d[k]});document.getElementById("language").value=lang;try{localStorage.setItem("kai-language",lang)}catch(e){}}
-document.getElementById("language").addEventListener("change",e=>setLanguage(e.target.value));
-document.getElementById("year").textContent=new Date().getFullYear();
-let saved="en";try{saved=localStorage.getItem("kai-language")||"en"}catch(e){}setLanguage(saved);
+
+const saved = JSON.parse(localStorage.getItem("kurdAcademyProgress") || "[]");
+let lang="ku", activeCourse=0;
+
+const $ = id => document.getElementById(id);
+
+function render(){
+ const t=translations[lang];
+ document.documentElement.lang=lang;
+ document.documentElement.dir=lang==="ar"||lang==="ku"?"rtl":"ltr";
+ ["heroTitle","heroText","coursesTitle","progressTitle",
+  "progressText","aboutTitle","aboutText"].forEach(k=>$(k).textContent=t[k]);
+ $("courses").innerHTML="";
+ t.courses.forEach((c,i)=>{
+  const done=saved.includes(i);
+  const article=document.createElement("article");
+  article.className="card";
+  const icon=document.createElement("div");icon.className="icon";icon.textContent=c[0];
+  const title=document.createElement("h3");title.textContent=c[1];
+  const desc=document.createElement("p");desc.textContent=c[2];
+  const status=document.createElement("p");status.textContent=done?"✓":"";
+  const btn=document.createElement("button");btn.textContent=t.start;
+  btn.addEventListener("click",()=>openLesson(i));
+  article.append(icon,title,desc,status,btn);
+  $("courses").append(article);
+ });
+ $("progressBar").style.width=(saved.length/3*100)+"%";
+ $("progressCount").textContent=saved.length+" / 3";
+ $("checkAnswer").textContent=t.check;
+ $("completeLesson").textContent=t.complete;
+ $("closeLesson").textContent=t.close;
+}
+
+function openLesson(i){
+ activeCourse=i;
+ const c=translations[lang].courses[i];
+ $("lesson").classList.add("active");
+ $("lessonTitle").textContent=c[1];
+ $("lessonBody").textContent=c[6];
+ $("questionText").textContent=c[3];
+ $("message").textContent="";
+ $("options").innerHTML="";
+ c[4].forEach((option,index)=>{
+  const label=document.createElement("label");
+  label.className="option";
+  const radio=document.createElement("input");
+  radio.type="radio";radio.name="answer";radio.value=index;
+  label.append(radio,document.createTextNode(" "+option));
+  $("options").append(label);
+ });
+ $("lesson").scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+$("checkAnswer").addEventListener("click",()=>{
+ const selected=document.querySelector('input[name="answer"]:checked');
+ const t=translations[lang];
+ if(!selected){$("message").textContent=t.wrong;return;}
+ $("message").textContent=Number(selected.value)===
+  translations[lang].courses[activeCourse][5]?t.correct:t.wrong;
+});
+
+$("completeLesson").addEventListener("click",()=>{
+ if(!saved.includes(activeCourse))saved.push(activeCourse);
+ localStorage.setItem("kurdAcademyProgress",JSON.stringify(saved));
+ $("message").textContent=translations[lang].done;
+ render();
+});
+
+$("closeLesson").addEventListener("click",()=>{
+ $("lesson").classList.remove("active");
+});
+
+$("language").addEventListener("change",e=>{
+ lang=e.target.value;render();
+});
+
+render();
 </script>
 </body>
 </html>
+

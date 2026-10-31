@@ -1,23 +1,16 @@
 # Kurd AI Academy
 
-This repository contains a simple, responsive landing page prototype for Kurd AI Academy.
+This repository contains a small interactive learning prototype for Kurd AI Academy.
 
-## Included
-- Responsive homepage with modern landing-page styling
-- Multi-language switcher: English, Kurdish, Arabic, Turkish
-- Course overview, mission section, and learner journey sections
-- No build step required; it is a static HTML site
+## What is included
+- RTL-friendly Kurdish-first landing page
+- Language switcher: Kurdish, English, Arabic, Turkish
+- Course cards for basic learning topics
+- Mini lesson quiz and progress tracker using browser localStorage
+- No backend or setup required; it runs directly in the browser
 
 ## Run locally
-Open `index.html` in a browser.
+Open `index.html` in any modern browser.
 
-## Deployment options
-You can deploy this static site on:
-- GitHub Pages
-- Netlify
-- Vercel
-- Firebase Hosting
-- Any simple static web host
-
-## Important note
-This is a front-end prototype only. It does not include a real learning platform, student accounts, payments, certificates, or backend systems yet.
+## Notes
+This is a lightweight prototype for learning and demonstration purposes. It is not a full LMS, student portal, or live course platform yet.
